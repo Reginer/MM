@@ -4,4 +4,10 @@
     <string name="password">密码</string>
     <string name="register">注册</string>
     <string name="login">登录</string>
+    <string name="no_call_data">没有通话数据</string>
+    <string name="network_unstable">网络不稳定</string>
+    <string name="call_version_inconsistent">通话协议版本不一致</string>
+    <string name="stop_record">停止录制</string>
+    <string name="record_finish_toast">录制完毕，文件存储在%s</string>
+    <string name="switch_camera">切换摄像头</string>
 </resources>
