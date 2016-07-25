@@ -72,8 +72,8 @@ public class ChatActivity extends EaseBaseActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_video:
-                startActivity(new Intent(ChatActivity.this, VideoCallActivity.class).putExtra("username", toChatUsername)
-                        .putExtra("isComingCall", false));
+//                startActivity(new Intent(ChatActivity.this, VideoCallActivity.class).putExtra("username", toChatUsername)
+//                        .putExtra("isComingCall", false));
                 break;
         }
     }
