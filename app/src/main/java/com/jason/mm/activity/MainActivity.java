@@ -21,7 +21,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-
 public class MainActivity extends EaseBaseActivity {
     private TextView unreadLabel;
     private Button[] mTabs;
@@ -109,11 +108,13 @@ public class MainActivity extends EaseBaseActivity {
      * @return
      */
     private Map<String, EaseUser> getContacts() {
-        Map<String, EaseUser> contacts = new HashMap<String, EaseUser>();
-        for (int i = 1; i <= 10; i++) {
-            EaseUser user = new EaseUser("easeuitest" + i);
-            contacts.put("easeuitest" + i, user);
-        }
+        Map<String, EaseUser> contacts = new HashMap<>();
+//        for (int i = 1; i <= 10; i++) {
+//            EaseUser user = new EaseUser("easeuitest" + i);
+//            contacts.put("easeuitest" + i, user);
+//        }
+        EaseUser user = new EaseUser("reginer");
+        contacts.put("reginer", user);
         return contacts;
     }
 }
