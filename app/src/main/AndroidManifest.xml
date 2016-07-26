@@ -73,6 +73,12 @@
             android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"
             android:screenOrientation="portrait" />
 
+
+        <activity android:name=".activity.VideoCallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
         <!-- 百度地图所需的service -->
         <service
             android:name="com.baidu.location.f"
