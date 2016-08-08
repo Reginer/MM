@@ -79,6 +79,11 @@
             android:screenOrientation="portrait"
             android:launchMode="singleTask"
             />
+
+        <activity android:name=".activity.GroupsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan"/>
         <!-- 百度地图所需的service -->
         <service
             android:name="com.baidu.location.f"
